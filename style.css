@@ -5,13 +5,13 @@
 body {
   background-color: #2e3440;
   color: white;
-  font-family: Trebuchet MS;
+  font-family: WO3;
   font-size: 24px;
 }
 
 @font-face {
-    font-family: 'Vectix';
-    src: url(https://etruongs7.neocities.org/vectix.ttf);
+    font-family: 'WO3';
+    src: url(/WO3.ttf);
 }
 
 a:hover, a:active {
