@@ -3,7 +3,7 @@
    "how to change link color." */
 
 body {
-  background-color: #2e3440;
+  background-color: darkred;
   color: white;
   font-family: WO3;
   font-size: 24px;
@@ -15,7 +15,7 @@ body {
 }
 
 a:hover, a:active {
-  background-color: darkred;
+  background-color: red;
 }
 
 .content {
