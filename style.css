@@ -2,23 +2,47 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: darkred;
-  color: white;
-  font-family: WO3;
-  font-size: 24px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'WO3', sans-serif;
+}
+
+/* header section*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+  }
+
+main {
+   height: calc(100vh - 70px);
+   display: flex;
+   background-color: darkred;
+ }
+
+/* Sidebar */ 
+.side-bar {
+    height: 100%;
+    width: 17%;
+    background-color: white;
+    overflow-y: hidden;
+  } 
+
+@media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+  }
+
 
 @font-face {
     font-family: 'WO3';
     src: url(/WO3.ttf);
-}
-
-a:hover, a:active {
-  background-color: red;
-}
-
-.content {
-  max-width: 800;
-  margin: auto;
 }
